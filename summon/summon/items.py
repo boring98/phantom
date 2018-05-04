@@ -16,15 +16,16 @@ class SummonItem(scrapy.Item):
     marketID = scrapy.Field() # 1：上海， 2：深圳
     name = scrapy.Field()
 
-class KDayItem(scrapy.Item):
+class CandlestickItem(scrapy.Item):
     securityKey = scrapy.Field()
-    date = scrapy.Field()
-    kid = scrapy.Field()
-    preClose = scrapy.Field()
-    open = scrapy.Field()
-    close = scrapy.Field()
-    low = scrapy.Field()
-    high = scrapy.Field()
-    volume = scrapy.Field()
-    turnover = scrapy.Field()
-    marketTime = scrapy.Field()
+    data = scrapy.Field()
+    # date = scrapy.Field()
+    # kid = scrapy.Field()
+    # preClose = scrapy.Field()
+    # open = scrapy.Field()
+    # close = scrapy.Field()
+    # low = scrapy.Field()
+    # high = scrapy.Field()
+    # volume = scrapy.Field()
+    # turnover = scrapy.Field()
+    # marketTime = scrapy.Field()
